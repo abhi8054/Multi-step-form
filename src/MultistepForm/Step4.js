@@ -1,5 +1,5 @@
 import React from 'react'
-import gif from "../assets/ok-mickey.gif"
+import gif from "../assets/ok.gif"
 
 function Step4({stepChange,data,modify,submitForm}) {
   return (
@@ -30,7 +30,7 @@ function Step4({stepChange,data,modify,submitForm}) {
           <label>Please confirm the Required info is correct </label>
         </div> 
         <div className='gif'>
-          <img width="50%" height="50%" src={"https://media.tenor.com/eLFQWpUJc_EAAAAi/yuta-chubby-shiba.gif"} />
+          <img width="50%" height="50%" src={gif} />
         </div>
       </div>
       <div className='button_field'>
